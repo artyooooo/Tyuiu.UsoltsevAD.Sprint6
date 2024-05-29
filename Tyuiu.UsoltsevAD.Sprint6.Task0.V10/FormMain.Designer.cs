@@ -22,182 +22,153 @@ namespace Tyuiu.UsoltsevAD.Sprint6.Task0.V10
         }
         private void InitializeComponent()
         {
-            this.GroupBoxCond_UAD = new System.Windows.Forms.GroupBox();
-            this.PictureBoxFormula_UAD = new System.Windows.Forms.PictureBox();
-            this.TextBoxTask_UAD = new System.Windows.Forms.TextBox();
-            this.GroupBoxInput_UAD = new System.Windows.Forms.GroupBox();
-            this.TextBoxVarX_UAD = new System.Windows.Forms.TextBox();
-            this.LabelVarX_UAD = new System.Windows.Forms.Label();
-            this.GroupBoxOutput_UAD = new System.Windows.Forms.GroupBox();
-            this.TextBoxResult_UAD = new System.Windows.Forms.TextBox();
-            this.LabelResult_UAD = new System.Windows.Forms.Label();
-            this.ButtonDone_UAD = new System.Windows.Forms.Button();
-            this.ButtonInfo_UAD = new System.Windows.Forms.Button();
-            this.GroupBoxCond_UAD.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBoxFormula_UAD)).BeginInit();
-            this.GroupBoxInput_UAD.SuspendLayout();
-            this.GroupBoxOutput_UAD.SuspendLayout();
+            this.groupBoxTask_UAD = new System.Windows.Forms.GroupBox();
+            this.textBoxTask_UAD = new System.Windows.Forms.TextBox();
+            this.groupBoxInPutData_UAD = new System.Windows.Forms.GroupBox();
+            this.labelVarX_UAD = new System.Windows.Forms.Label();
+            this.textBoxVarX_UAD = new System.Windows.Forms.TextBox();
+            this.groupBoxOutPutData_UAD = new System.Windows.Forms.GroupBox();
+            this.labelResult_UAD = new System.Windows.Forms.Label();
+            this.textBoxResult_UAD = new System.Windows.Forms.TextBox();
+            this.buttonHelp_UAD = new System.Windows.Forms.Button();
+            this.buttonDone_UAD = new System.Windows.Forms.Button();
+            this.groupBoxTask_UAD.SuspendLayout();
+            this.groupBoxInPutData_UAD.SuspendLayout();
+            this.groupBoxOutPutData_UAD.SuspendLayout();
             this.SuspendLayout();
             // 
-            // GroupBoxCond_UAD
+            // groupBoxTask_UAD
             // 
-            this.GroupBoxCond_UAD.Controls.Add(this.PictureBoxFormula_UAD);
-            this.GroupBoxCond_UAD.Controls.Add(this.TextBoxTask_UAD);
-            this.GroupBoxCond_UAD.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.GroupBoxCond_UAD.Location = new System.Drawing.Point(6, 12);
-            this.GroupBoxCond_UAD.Name = "GroupBoxCond_UAD";
-            this.GroupBoxCond_UAD.Size = new System.Drawing.Size(782, 191);
-            this.GroupBoxCond_UAD.TabIndex = 0;
-            this.GroupBoxCond_UAD.TabStop = false;
-            this.GroupBoxCond_UAD.Text = "Условие";
+            this.groupBoxTask_UAD.Controls.Add(this.textBoxTask_UAD);
+            this.groupBoxTask_UAD.Location = new System.Drawing.Point(38, 34);
+            this.groupBoxTask_UAD.Name = "groupBoxTask_UAD";
+            this.groupBoxTask_UAD.Size = new System.Drawing.Size(750, 225);
+            this.groupBoxTask_UAD.TabIndex = 0;
+            this.groupBoxTask_UAD.TabStop = false;
+            this.groupBoxTask_UAD.Text = "Условие";
             // 
-            // PictureBoxFormula_UAD
+            // textBoxTask_UAD
             // 
-            this.PictureBoxFormula_UAD.Location = new System.Drawing.Point(347, 27);
-            this.PictureBoxFormula_UAD.Name = "PictureBoxFormula_UAD";
-            this.PictureBoxFormula_UAD.Size = new System.Drawing.Size(429, 44);
-            this.PictureBoxFormula_UAD.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.PictureBoxFormula_UAD.TabIndex = 1;
-            this.PictureBoxFormula_UAD.TabStop = false;
+            this.textBoxTask_UAD.Location = new System.Drawing.Point(10, 25);
+            this.textBoxTask_UAD.Multiline = true;
+            this.textBoxTask_UAD.Name = "textBoxTask_UAD";
+            this.textBoxTask_UAD.ReadOnly = true;
+            this.textBoxTask_UAD.Size = new System.Drawing.Size(728, 194);
+            this.textBoxTask_UAD.TabIndex = 2;
+            this.textBoxTask_UAD.Text = "Вычислить значение выражения по формуле";
             // 
-            // TextBoxTask_UAD
+            // groupBoxInPutData_UAD
             // 
-            this.TextBoxTask_UAD.BackColor = System.Drawing.SystemColors.Control;
-            this.TextBoxTask_UAD.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TextBoxTask_UAD.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.TextBoxTask_UAD.Location = new System.Drawing.Point(17, 34);
-            this.TextBoxTask_UAD.Multiline = true;
-            this.TextBoxTask_UAD.Name = "TextBoxTask_UAD";
-            this.TextBoxTask_UAD.ReadOnly = true;
-            this.TextBoxTask_UAD.Size = new System.Drawing.Size(324, 135);
-            this.TextBoxTask_UAD.TabIndex = 0;
-            this.TextBoxTask_UAD.TabStop = false;
-            this.TextBoxTask_UAD.Text = "Вычислить выражение по формуле";
+            this.groupBoxInPutData_UAD.Controls.Add(this.labelVarX_UAD);
+            this.groupBoxInPutData_UAD.Controls.Add(this.textBoxVarX_UAD);
+            this.groupBoxInPutData_UAD.Location = new System.Drawing.Point(38, 265);
+            this.groupBoxInPutData_UAD.Name = "groupBoxInPutData_UAD";
+            this.groupBoxInPutData_UAD.Size = new System.Drawing.Size(455, 124);
+            this.groupBoxInPutData_UAD.TabIndex = 1;
+            this.groupBoxInPutData_UAD.TabStop = false;
+            this.groupBoxInPutData_UAD.Text = "Ввод данных";
             // 
-            // GroupBoxInput_UAD
+            // labelVarX_UAD
             // 
-            this.GroupBoxInput_UAD.Controls.Add(this.TextBoxVarX_UAD);
-            this.GroupBoxInput_UAD.Controls.Add(this.LabelVarX_UAD);
-            this.GroupBoxInput_UAD.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.GroupBoxInput_UAD.Location = new System.Drawing.Point(6, 209);
-            this.GroupBoxInput_UAD.Name = "GroupBoxInput_UAD";
-            this.GroupBoxInput_UAD.Size = new System.Drawing.Size(507, 169);
-            this.GroupBoxInput_UAD.TabIndex = 1;
-            this.GroupBoxInput_UAD.TabStop = false;
-            this.GroupBoxInput_UAD.Text = "Ввод данных";
+            this.labelVarX_UAD.AutoSize = true;
+            this.labelVarX_UAD.Location = new System.Drawing.Point(6, 34);
+            this.labelVarX_UAD.Name = "labelVarX_UAD";
+            this.labelVarX_UAD.Size = new System.Drawing.Size(123, 20);
+            this.labelVarX_UAD.TabIndex = 1;
+            this.labelVarX_UAD.Text = "Переменная X:";
             // 
-            // TextBoxVarX_UAD
+            // textBoxVarX_UAD
             // 
-            this.TextBoxVarX_UAD.Location = new System.Drawing.Point(40, 112);
-            this.TextBoxVarX_UAD.Name = "TextBoxVarX_UAD";
-            this.TextBoxVarX_UAD.Size = new System.Drawing.Size(213, 50);
-            this.TextBoxVarX_UAD.TabIndex = 1;
-            this.TextBoxVarX_UAD.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxVarX_UAD_KeyPress);
+            this.textBoxVarX_UAD.Location = new System.Drawing.Point(6, 57);
+            this.textBoxVarX_UAD.Name = "textBoxVarX_UAD";
+            this.textBoxVarX_UAD.Size = new System.Drawing.Size(443, 26);
+            this.textBoxVarX_UAD.TabIndex = 0;
+            this.textBoxVarX_UAD.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxVarX_UAD_KeyPress);
             // 
-            // LabelVarX_UAD
+            // groupBoxOutPutData_UAD
             // 
-            this.LabelVarX_UAD.AutoSize = true;
-            this.LabelVarX_UAD.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.LabelVarX_UAD.Location = new System.Drawing.Point(36, 76);
-            this.LabelVarX_UAD.Name = "LabelVarX_UAD";
-            this.LabelVarX_UAD.Size = new System.Drawing.Size(223, 34);
-            this.LabelVarX_UAD.TabIndex = 0;
-            this.LabelVarX_UAD.Text = "Переменная X:";
+            this.groupBoxOutPutData_UAD.Controls.Add(this.labelResult_UAD);
+            this.groupBoxOutPutData_UAD.Controls.Add(this.textBoxResult_UAD);
+            this.groupBoxOutPutData_UAD.Location = new System.Drawing.Point(499, 265);
+            this.groupBoxOutPutData_UAD.Name = "groupBoxOutPutData_UAD";
+            this.groupBoxOutPutData_UAD.Size = new System.Drawing.Size(283, 124);
+            this.groupBoxOutPutData_UAD.TabIndex = 2;
+            this.groupBoxOutPutData_UAD.TabStop = false;
+            this.groupBoxOutPutData_UAD.Text = "Вывод данных";
             // 
-            // GroupBoxOutput_UAD
+            // labelResult_UAD
             // 
-            this.GroupBoxOutput_UAD.Controls.Add(this.TextBoxResult_UAD);
-            this.GroupBoxOutput_UAD.Controls.Add(this.LabelResult_UAD);
-            this.GroupBoxOutput_UAD.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.GroupBoxOutput_UAD.Location = new System.Drawing.Point(532, 209);
-            this.GroupBoxOutput_UAD.Name = "GroupBoxOutput_UAD";
-            this.GroupBoxOutput_UAD.Size = new System.Drawing.Size(256, 169);
-            this.GroupBoxOutput_UAD.TabIndex = 2;
-            this.GroupBoxOutput_UAD.TabStop = false;
-            this.GroupBoxOutput_UAD.Text = "Вывод данных";
+            this.labelResult_UAD.AutoSize = true;
+            this.labelResult_UAD.Location = new System.Drawing.Point(6, 34);
+            this.labelResult_UAD.Name = "labelResult_UAD";
+            this.labelResult_UAD.Size = new System.Drawing.Size(93, 20);
+            this.labelResult_UAD.TabIndex = 1;
+            this.labelResult_UAD.Text = "Результат:";
             // 
-            // TextBoxResult_UAD
+            // textBoxResult_UAD
             // 
-            this.TextBoxResult_UAD.Location = new System.Drawing.Point(10, 112);
-            this.TextBoxResult_UAD.Name = "TextBoxResult_UAD";
-            this.TextBoxResult_UAD.ReadOnly = true;
-            this.TextBoxResult_UAD.Size = new System.Drawing.Size(219, 50);
-            this.TextBoxResult_UAD.TabIndex = 2;
+            this.textBoxResult_UAD.Location = new System.Drawing.Point(6, 57);
+            this.textBoxResult_UAD.Name = "textBoxResult_UAD";
+            this.textBoxResult_UAD.ReadOnly = true;
+            this.textBoxResult_UAD.Size = new System.Drawing.Size(271, 26);
+            this.textBoxResult_UAD.TabIndex = 0;
             // 
-            // LabelResult_UAD
+            // buttonHelp_UAD
             // 
-            this.LabelResult_UAD.AutoSize = true;
-            this.LabelResult_UAD.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.LabelResult_UAD.Location = new System.Drawing.Point(6, 76);
-            this.LabelResult_UAD.Name = "LabelResult_UAD";
-            this.LabelResult_UAD.Size = new System.Drawing.Size(175, 34);
-            this.LabelResult_UAD.TabIndex = 1;
-            this.LabelResult_UAD.Text = "Результат:";
+            this.buttonHelp_UAD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonHelp_UAD.Location = new System.Drawing.Point(588, 395);
+            this.buttonHelp_UAD.Name = "buttonHelp_UAD";
+            this.buttonHelp_UAD.Size = new System.Drawing.Size(52, 42);
+            this.buttonHelp_UAD.TabIndex = 3;
+            this.buttonHelp_UAD.Text = "?";
+            this.buttonHelp_UAD.UseVisualStyleBackColor = true;
+            this.buttonHelp_UAD.Click += new System.EventHandler(this.buttonHelp_UAD_Click);
             // 
-            // ButtonDone_UAD
+            // buttonDone_UAD
             // 
-            this.ButtonDone_UAD.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.ButtonDone_UAD.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ButtonDone_UAD.Location = new System.Drawing.Point(607, 384);
-            this.ButtonDone_UAD.Name = "ButtonDone_UAD";
-            this.ButtonDone_UAD.Size = new System.Drawing.Size(181, 54);
-            this.ButtonDone_UAD.TabIndex = 4;
-            this.ButtonDone_UAD.Text = "Выполнить";
-            this.ButtonDone_UAD.UseVisualStyleBackColor = false;
-            this.ButtonDone_UAD.Click += new System.EventHandler(this.ButtonDone_UAD_Click);
-            // 
-            // ButtonInfo_UAD
-            // 
-            this.ButtonInfo_UAD.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.ButtonInfo_UAD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ButtonInfo_UAD.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ButtonInfo_UAD.Location = new System.Drawing.Point(532, 384);
-            this.ButtonInfo_UAD.Name = "ButtonInfo_UAD";
-            this.ButtonInfo_UAD.Size = new System.Drawing.Size(69, 54);
-            this.ButtonInfo_UAD.TabIndex = 5;
-            this.ButtonInfo_UAD.Text = "?";
-            this.ButtonInfo_UAD.UseVisualStyleBackColor = false;
-            this.ButtonInfo_UAD.Click += new System.EventHandler(this.ButtonInfo_UAD_Click);
+            this.buttonDone_UAD.Location = new System.Drawing.Point(646, 395);
+            this.buttonDone_UAD.Name = "buttonDone_UAD";
+            this.buttonDone_UAD.Size = new System.Drawing.Size(136, 42);
+            this.buttonDone_UAD.TabIndex = 4;
+            this.buttonDone_UAD.Text = "Выполнить";
+            this.buttonDone_UAD.UseVisualStyleBackColor = true;
+            this.buttonDone_UAD.Click += new System.EventHandler(this.buttonDone_UAD_Click);
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.ButtonInfo_UAD);
-            this.Controls.Add(this.ButtonDone_UAD);
-            this.Controls.Add(this.GroupBoxOutput_UAD);
-            this.Controls.Add(this.GroupBoxInput_UAD);
-            this.Controls.Add(this.GroupBoxCond_UAD);
-            this.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Controls.Add(this.buttonDone_UAD);
+            this.Controls.Add(this.buttonHelp_UAD);
+            this.Controls.Add(this.groupBoxOutPutData_UAD);
+            this.Controls.Add(this.groupBoxInPutData_UAD);
+            this.Controls.Add(this.groupBoxTask_UAD);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 0 | Вариант 10 | Усольцев А.Д.";
-            this.GroupBoxCond_UAD.ResumeLayout(false);
-            this.GroupBoxCond_UAD.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBoxFormula_UAD)).EndInit();
-            this.GroupBoxInput_UAD.ResumeLayout(false);
-            this.GroupBoxInput_UAD.PerformLayout();
-            this.GroupBoxOutput_UAD.ResumeLayout(false);
-            this.GroupBoxOutput_UAD.PerformLayout();
+            this.groupBoxTask_UAD.ResumeLayout(false);
+            this.groupBoxTask_UAD.PerformLayout();
+            this.groupBoxInPutData_UAD.ResumeLayout(false);
+            this.groupBoxInPutData_UAD.PerformLayout();
+            this.groupBoxOutPutData_UAD.ResumeLayout(false);
+            this.groupBoxOutPutData_UAD.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
-
-        private System.Windows.Forms.GroupBox GroupBoxCond_UAD;
-        private System.Windows.Forms.TextBox TextBoxTask_UAD;
-        private System.Windows.Forms.GroupBox GroupBoxInput_UAD;
-        private System.Windows.Forms.GroupBox GroupBoxOutput_UAD;
-        private System.Windows.Forms.PictureBox PictureBoxFormula_UAD;
-        private System.Windows.Forms.TextBox TextBoxVarX_UAD;
-        private System.Windows.Forms.Label LabelVarX_UAD;
-        private System.Windows.Forms.Label LabelResult_UAD;
-        private System.Windows.Forms.TextBox TextBoxResult_UAD;
-        private System.Windows.Forms.Button ButtonDone_UAD;
-        private System.Windows.Forms.Button ButtonInfo_UAD;
+        private System.Windows.Forms.GroupBox groupBoxTask_UAD;
+        private System.Windows.Forms.GroupBox groupBoxInPutData_UAD;
+        private System.Windows.Forms.GroupBox groupBoxOutPutData_UAD;
+        private System.Windows.Forms.Button buttonHelp_UAD;
+        private System.Windows.Forms.Button buttonDone_UAD;
+        private System.Windows.Forms.TextBox textBoxResult_UAD;
+        private System.Windows.Forms.Label labelResult_UAD;
+        private System.Windows.Forms.Label labelVarX_UAD;
+        private System.Windows.Forms.TextBox textBoxVarX_UAD;
+        private System.Windows.Forms.TextBox textBoxTask_UAD;
     }
 }
 

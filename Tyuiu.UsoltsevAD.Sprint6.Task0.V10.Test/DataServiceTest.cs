@@ -8,7 +8,7 @@ namespace Tyuiu.UsoltsevAD.Sprint6.Task0.V10.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ValidCalculate()
         {
             DataService ds = new DataService();
             double res = ds.Calculate(2);

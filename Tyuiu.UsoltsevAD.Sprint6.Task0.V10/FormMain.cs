@@ -17,13 +17,12 @@ namespace Tyuiu.UsoltsevAD.Sprint6.Task0.V10
         {
             InitializeComponent();
         }
-        private void ButtonDone_UAD_Click(object sender, EventArgs e)
+        private void buttonDone_UAD_Click(object sender, EventArgs e)
         {
             DataService ds = new DataService();
             try
             {
-                TextBoxResult_UAD.Text = Convert.ToString(ds.Calculate(Convert.ToInt32(TextBoxVarX_UAD.Text)));
-
+                textBoxResult_UAD.Text = Convert.ToString(ds.Calculate(Convert.ToInt32(textBoxVarX_UAD.Text)));
             }
             catch
             {
@@ -31,7 +30,7 @@ namespace Tyuiu.UsoltsevAD.Sprint6.Task0.V10
             }
         }
 
-        private void TextBoxVarX_UAD_KeyPress(object sender, KeyPressEventArgs e)
+        private void textBoxVarX_UAD_KeyPress(object sender, KeyPressEventArgs e)
         {
             if ((e.KeyChar <= 47 || e.KeyChar >= 58) && (e.KeyChar != ',') && (e.KeyChar != 8))
             {
@@ -39,9 +38,9 @@ namespace Tyuiu.UsoltsevAD.Sprint6.Task0.V10
             }
         }
 
-        private void ButtonInfo_UAD_Click(object sender, EventArgs e)
+        private void buttonHelp_UAD_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Таск 0 выполнила студент группы АСОиУб-23-2 Усольцев Артём Денисович", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            MessageBox.Show("Таск 0 выполнил студент группы АСОиУб-23-2 Усольцев Артём Денисович", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
